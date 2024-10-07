@@ -1,0 +1,48 @@
+body {
+    background-image: url('/anime-inn-outside.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.entry-box {
+    max-width: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.outer {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box {
+    background-color: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 6px 15px;
+    /* backdrop-filter: blur(10px); */
+}
+
+.page-text {
+    color: #FAFEFF;
+    text-shadow: 1px 1px #000000;
+}
+
+.head-title {
+    font-size: 4.5rem;
+    text-shadow: 1px 3px #000000;
+}
+
+.button-submit {
+    max-width: 95%;
+}
+
+input::placeholder {
+    color: rgba(245, 245, 245, 0.661);
+    font-size: 1rem;
+}
